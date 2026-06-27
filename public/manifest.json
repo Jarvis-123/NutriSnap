@@ -1,0 +1,9 @@
+{
+  "name": "NutriSnap",
+  "short_name": "NutriSnap",
+  "description": "AI food nutrition analyzer",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f9fafb",
+  "theme_color": "#16a34a"
+}
