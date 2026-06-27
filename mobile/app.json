@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "NutriSnap",
+    "slug": "nutrisnap",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#16a34a"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.nutrisnap.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#16a34a",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_MEDIA_IMAGES"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow NutriSnap to access your photos to analyze meals.",
+          "cameraPermission": "Allow NutriSnap to use the camera to snap meals."
+        }
+      ]
+    ],
+    "extra": {
+      "apiUrl": "http://10.0.2.2:3000",
+      "supabaseUrl": "",
+      "supabaseAnonKey": ""
+    }
+  }
+}
